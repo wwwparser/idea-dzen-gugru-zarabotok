@@ -4,6 +4,12 @@
 
 ## Открыть
 
+Публичный сайт: https://wwwparser.github.io/idea-dzen-gugru-zarabotok/
+
+Репозиторий: https://github.com/wwwparser/idea-dzen-gugru-zarabotok
+
+GitHub Pages публикует папку `docs/` из ветки `main`. В онлайн-версии видео встроено из Kinescope; поиск и расшифровка размещены вместе с сайтом. Для обновления обеих версий выполните `python scripts/build.py --github-pages`, затем закоммитьте и отправьте изменения на GitHub.
+
 Дважды щёлкните `index.html`. Интернет для чтения и просмотра скачанного видео не нужен. Расшифровка встроена в `assets/transcript.js`, поэтому поиск работает и без веб-сервера. В браузерах, запрещающих хранение для локальных файлов, отметки глав могут не сохраняться.
 
 При необходимости запустите из этой папки:
@@ -84,7 +90,7 @@ python scripts/research.py
 
 Источники: [исходная страница](https://dzen.guru/video-claudecode), [официальная документация Claude Code](https://code.claude.com/docs/en/best-practices), [MDN: HTML](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content), [MDN: CSS](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content). Подробные ссылки — в главе 08.
 
-Проект не опубликован на хостинге. Видео и материалы подготовлены для локального изучения.
+Проект опубликован на GitHub Pages. Скачанные видео и аудио остаются в локальной папке; в публичную версию встроен оригинальный плеер. `.env` и сырые данные источников не входят в репозиторий.
 
 ## Выполненные проверки
 
