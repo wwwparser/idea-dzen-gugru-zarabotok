@@ -1,0 +1,7 @@
+.env
+__pycache__/
+data/media/
+data/source/video-info.json
+data/source/
+data/research/
+logs/
